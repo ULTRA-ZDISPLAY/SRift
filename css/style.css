@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Windows';
+    font-style: normal; 
+    font-weight: 400;
+    src: url('../font/Windows\ Regular.ttf');
+}
+* {
+    image-rendering: pixelated;
+    margin: 0;
+    padding: 0;
+    font-family: 'Windows';
+    text-decoration: none;
+}
+body {
+  
+    background-color: #3E4637;
+}
+h1, h2,h3,h4,h5,h6,p {
+    color: #fff;
+}
+a {
+    color: #BBB17C!important;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 10%;
+    margin-bottom: 10px;
+width: 80%;
+height: auto;
+    background: #303828;
+}
+section * {
+    margin: 5px;
+}
+input,textarea {
+    border: 2px solid #000;
+background: #242B1E;
+}
+button, input[type=submit] {
+    border: none;
+    color: #282E22;
+text-align: center;
+font-family: 'Windows';
+text-shadow: 1px 1px 0px #75806F;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+padding: 5px;
+line-height: normal;
+letter-spacing: 2.4px;
+    border-top: 1px solid #889180;
+border-left: 1px solid #889180;
+background: #4C5844;
+box-shadow: 1px 1px 0px 0px #282E22;
+}
+button:active, input[type=submit]:active {
+    border-top: 1px solid #282E22;
+    border-left: 1px solid #282E22;
+    background: #3d4736;
+    box-shadow: 1px 1px 0px 0px #889180;
+}
+.avatar {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.banner {
+    background-repeat: no-repeat!important;
+    background-size:cover!important;
+    background-position:cover!important;
+}
+.galery {
+    margin: 0!important;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+
+}
+.galery * {
+    transition: 0.8s;
+    margin: 0;
+    vertical-align: top;
+    width: calc(25% - 4px);
+    height: 500px;
+    object-fit: cover;
+}
+.galery *:hover {
+     transition: 0.8s;
+    object-fit:contain;
+}
